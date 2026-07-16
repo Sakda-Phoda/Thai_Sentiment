@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Data (regenerated deterministically by src/data.py)
+data/*.parquet
+data/*.csv
+
+# Large model artifacts -> push to Hugging Face Hub instead
+models/**
+!models/.gitkeep
+
+# Local sklearn baseline artifact
+*.joblib
+
+# Personal learning notes (เนื้อหาเรียนรู้ส่วนตัว — แยกจาก portfolio ไม่ push ขึ้น GitHub)
+# learning/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep generated figures committed for the README, but ignore caches
+reports/figures/*.tmp

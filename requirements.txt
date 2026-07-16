@@ -1,0 +1,26 @@
+# Core DL stack
+transformers>=4.46
+datasets>=3.0
+accelerate
+torch
+
+# Metrics / classical ML baseline
+scikit-learn
+evaluate
+
+# Thai NLP
+pythainlp
+sentencepiece          # REQUIRED for WangchanBERTa tokenizer (SentencePiece backend)
+
+# Data / viz
+pandas
+numpy
+matplotlib
+seaborn
+
+# Demo
+gradio
+
+# Utilities
+joblib                 # persist the sklearn baseline
+huggingface_hub        # push model / create Space
