@@ -4,10 +4,6 @@
 > on the **Wisesight Sentiment Corpus** and perform a head-to-head comparison with a classical baseline (TF-IDF + Logistic Regression).
 > Achieved **macro-F1 = 0.6151**, outperforming the baseline by **0.0342** points.
 
-🔗 **Live demo:** `<insert Hugging Face Space link here>`
-
-> ⚙️ Numeric values with `<fill>` will be automatically updated after running the pipeline — check the actual values in [`reports/metrics.json`](reports/metrics.json) and [`reports/comparison.md`](reports/comparison.md).
-
 ---
 
 ## 1. Problem statement
